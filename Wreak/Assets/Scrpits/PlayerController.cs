@@ -54,6 +54,9 @@ public class PlayerController : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+    }
 
-   
 }
